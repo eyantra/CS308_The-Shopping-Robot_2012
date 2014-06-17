@@ -1,0 +1,14 @@
+This is the code which is burned on the firebird with the gripping mechanism.
+
+Use AVR Studio to open the project.
+
+Explanation of various header files:
+1) adc.h : contains the code for reading sensor values and line following and calibration for our bot
+2) arm.h : contains the code to move the arm
+3) buzzer.h :contains the code to use the buzzer
+4) init.h : contains the initializtions of all the required ports
+5) lcd.c : for using the lcd.
+6) motion.h : contains functions for movement of the bot(functions life left,right,forward,etc)
+7) rfid.h : contains the code to read rfid and send the rfid value via xbee to the coordinator
+8) signals.h : contains the code of various interrupts for xbee and the protocol for sending messages
+9) whitelinemovement.c : main file for doing all the functions of the bot.

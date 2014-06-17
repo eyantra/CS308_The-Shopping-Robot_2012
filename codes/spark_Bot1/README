@@ -1,0 +1,6 @@
+This is the code for 1 of our sparks.
+
+The header files have the same functionality as described in the readme for gripper bot.
+
+only init.h will have different values a this is a spark bot.
+adc.h will have different values due to the calibration done for good linefollowing.
